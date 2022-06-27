@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/toggle.css" />
+    <title>Toggle test</title>
+  </head>
+  <body onafterunload="return onload()">
+    <div>
+      <button id="myBtn" class="btn">Hilang dan tidak</button>
+      <div id="hilang" class="hilang-content"></div>
+    </div>
+    <p id="para"></p>
+    <a
+      href="https://images.bisnis-cdn.com/posts/2020/08/05/1275383/pacific-2990.jpg"
+      download=
+    > bambang </a>
+
+    <script>
+      function onload() {
+        return (document.getElementById("para").innerHTML = "bambang");
+      }
+    </script>
+    <script src="js/toggle.js"></script>
+  </body>
+</html>
